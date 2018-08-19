@@ -1,0 +1,19 @@
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+  
+- url: /assets
+  static_dir: assets
+
+- url: /
+  script: index.html
+  
+- url: /stylesheets/assets
+  static_dir: assets
+  
+# Serve php scripts.
+- url: /(.+\.php)$
+  script: \1

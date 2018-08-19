@@ -1,0 +1,53 @@
+/* general styles */
+hr {
+  width: 75%;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+/* additional sections */
+#splash {
+  background: url(/assets/background.jpg) no-repeat center center fixed;
+  color: white;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#services {
+  background-color: #306d9f;
+  color: #ffffff;
+}
+#google_map {
+  height: 500px;
+}
+footer {
+  background-color: #306d9f;
+  padding-top: 10px;
+  text-align: right;
+  color: lightgray;
+}
