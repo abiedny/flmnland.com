@@ -25,6 +25,13 @@ html, body {
   margin: 0;
   padding: 0;
 }
+/*Apple Fix*/
+#wrapper {
+	height: 100%;
+	width: 100%;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
 /* additional sections */
 #splash {
   background: url(/assets/background.jpg) no-repeat center center fixed;

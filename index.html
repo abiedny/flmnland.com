@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="/stylesheets/main.css" type="text/css">
 </head>
 <body>
+  <div id="wrapper"><!--Wrapper to fix parallax on iOS devices-->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -37,8 +38,8 @@
     <!--Splash Text-->
     <div class="home" id="splash">
       <div class="text-vcenter">
-        <h1>Forest Lake Preserve Estates</h1>
-        <h1>Outlot A</h1>
+        <h1 style="font-family: Brush Script MT;">Forest Lake Preserve Estates</h1>
+        <h2>Outlot A</h2>
         <h3>$1.55 Million</h3>
       </div>
     </div>
@@ -167,7 +168,12 @@
               OR
               send a message to <a href="mailto://info@flmnland.com">info@flmnland.com</a>
             </p>
-            <form action="/contact_us.php" method="POST">
+            <!--Submit success alert-->
+            <div id="form_alert" class="alert alert-success alert-dismissable fade in" style="display: none;">
+              <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">&times;</a>
+              <strong>Success!</strong> Your message has been sent.
+            </div>
+            <form action="/contact_us.php" method="POST" id="contact_form">
               <div class="form-group">
                 <label for="nameInput">Name</label>
                 <input name="name" type="text" class="form-control" id="nameInput" placeholder="Enter your name">
@@ -191,5 +197,6 @@
     <footer class="container-fluid">
       <p>Designed by Alex Biedny. August 2018.</p>
     </footer>
+  </div>
 </body>
 </html>
