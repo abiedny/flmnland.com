@@ -45,13 +45,6 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
 }
-#services {
-  background-color: #306d9f;
-  color: #ffffff;
-}
-#google_map {
-  height: 500px;
-}
 footer {
   background-color: #306d9f;
   padding-top: 10px;
