@@ -9,6 +9,9 @@ $(function() {
       data: $("#contact_form").serialize(),
       success: () => { 
         $("#form_alert").show(); 
+        $("input")[0].value = "";
+        $("input")[1].value = "";
+        $("textarea")[0].value = "";
       }
     });
   });
