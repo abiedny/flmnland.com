@@ -53,24 +53,25 @@
               width="100%"
               height="450"
               frameborder="0" style="border:0"
-              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyASvw-0vMlu-usLvponuuCiV_JnVFKx3CM&q=18323+Forest+Blvd+N,+Forest+Lake,+MN&maptype=satellite" allowfullscreen>
+              src="https://maps.google.com/maps?q=45.2126563,-92.9756372&hl=es;z=16.5&amp;output=embed" allowfullscreen>
             </iframe>
           </div>
           <div class="col-sm-6" id="info-text">
             <h2>Info</h2>
             <p>
-              The Forest Lake Preserve Estates are a roughly 170 acre parcel of land located on the southern end of Forest Lake, MN.
-              The property is a beautiful mix of wetlands, forests, and fields, and has something for everybody: Sportsmen, nature enthusiasts, or even developers!
+              Forest Lake Preserve Estates' Outlot A is roughly 170 acre parcel of land located on the southern end of Forest Lake, MN.
+              The property is a beautiful mix of fields, forest, and wetlands, and has something for everybody: Sportsmen, nature enthusiasts, farmers, 
+              equestrian hobbyists, or even land developers!
             </p>
             <ul>
+              <li><strong>Sportsman's Delight: </strong>For the hunting enthusiast, this property is a dream come true. It has 
+                been lightly hunted for years, always yielding trophy whitetail deer. Turkey and pheasants are also abound 
+                on the property. With several well-maintained trails throughout the property, it really is a sportsman's delight!</li>
               <li><strong>Old Growth Forest: </strong>Much of the propery contains deciduous and coniferous woodlands, 
                 with old growth oak trees in abundance. In early 2004, nearly 7000 coniferous trees of various species were 
                 planted, and they continue to flourish to this day.</li>
-              <li><strong>Sportsman's Delight: </strong>For the hunting enthusiast, this property is a dream come true. It has 
-                been lightly hunted for years, always yielding trophy whitetail deer. Turkey, grouse, and pheasants are also abound 
-                on the property. With several well-maintained trails throughout the property, it really is a sportsman's delight!</li>
               <li><strong>Full of Potential: </strong>With over 1300ft of frontage on Highway 61, the property is full of potential 
-                for future development. The land is currently zoned agriculturally, allowing for 20 acre lots, and future 
+                for future development. The land is currently zoned agricultural, allowing for 20 acre lots, and future 
                 city development plans show that much of it will soon be reclassified to allow for mixed commercial, 
                 residential, and light industrial use.</li>
             </ul>
@@ -159,7 +160,7 @@
             <p>
               Mentioned in the general info section, the Forest Lake Future Land Use Plan - which outlines future 
               municipal goals and priorities in land development - shows Highway 61 frontage as designated for 
-              mixed commercial use. This would allow for a mix of retail, office, residential, and light industrial lots. 
+              mixed use. This would allow for a range of retail, office, residential, and light industrial lots. 
               The document also details plans to extend Forest Lake city sewer and water to city limits, meaning that the Forest 
               Lake Preserve Estates are only 10-15 years away from city sewer and water- a great investment opportunity!
             </p>

@@ -5,7 +5,7 @@ $(function() {
 
     $.ajax({
       type: 'post',
-      url: '/contact_us.php',
+      url: '/email/contact_us.php',
       data: $("#contact_form").serialize(),
       success: () => { 
         $("#form_alert").show(); 
